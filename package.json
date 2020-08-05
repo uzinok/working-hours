@@ -1,6 +1,6 @@
 {
-  "name": "test",
-  "version": "2.2.3",
+  "name": "working-hours",
+  "version": "1.0.0",
   "description": "test",
   "scripts": {
     "start": "gulp"
