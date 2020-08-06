@@ -135,7 +135,7 @@ function workHours() {
             else if(scheduler[firstKey]['hours'] == date.getHours() && 00 != scheduler[firstKey]['minute']) {
 
             return svgTimer(
-                document.querySelector(".timer-js1"),
+                document.querySelector(".timer-js"),
                 0,
                 59 - date.getMinutes(),
                 59 - date.getSeconds(),

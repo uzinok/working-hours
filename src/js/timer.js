@@ -94,9 +94,9 @@ function svgTimer(myBlockTimer, hh, mm, ss, signaling) {
 
               if (hour1 == -1) {
                 // Создаём новый элемент Audio
-                var audio = new Audio();
+                var audio = new Audio('audio/' + signaling);
                 // Указываем путь к звуку "клика"
-                audio.src = 'audio/' + signaling;
+                // audio.src = 'audio/' + signaling;
                 // Автоматически запускаем
                 audio.autoplay = true;
 

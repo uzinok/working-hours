@@ -135,7 +135,7 @@ function workHours() {
             else if(scheduler[firstKey]['hours'] == date.getHours() && 00 != scheduler[firstKey]['minute']) {
 
             return svgTimer(
-                document.querySelector(".timer-js1"),
+                document.querySelector(".timer-js"),
                 0,
                 59 - date.getMinutes(),
                 59 - date.getSeconds(),
@@ -260,9 +260,9 @@ return z(b.cx||0,b.cy||0,b.rx,b.ry)},rect:function(a){var b=Y(a);return y(b.x||0
 
               if (hour1 == -1) {
                 // Создаём новый элемент Audio
-                var audio = new Audio();
+                var audio = new Audio('audio/' + signaling);
                 // Указываем путь к звуку "клика"
-                audio.src = 'audio/' + signaling;
+                // audio.src = 'audio/' + signaling;
                 // Автоматически запускаем
                 audio.autoplay = true;
 
